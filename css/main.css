@@ -1,0 +1,46 @@
+body
+{
+	font-family: Arial;
+	color: #DDD8D5;
+	background-color: #CD9F7E;
+}
+.menu
+{
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+}
+
+.menu__item
+{
+	
+}
+
+.menu__item-title
+{
+	display: inline-block;
+	cursor: pointer;
+	padding: 10px;
+	margin: 0;
+}
+
+.submenu
+{
+	margin-left: 0;
+    padding-left: 0;
+
+    border: solid #DDD8D5 1px;
+    padding: 10px;
+}
+
+.submenu__title
+{
+    cursor: pointer;
+    list-style-type: none;
+    padding: 5px 0 5px 0;
+}
+
+.submenu__title:hover
+{
+	opacity: .5;
+}

@@ -4,16 +4,18 @@ body
 	color: #DDD8D5;
 	background-color: #CD9F7E;
 }
+
+.container
+{
+	display: flex;
+	justify-content: center;
+}
+
 .menu
 {
 	display: flex;
 	justify-content: space-between;
 	width: 60%;
-}
-
-.menu__item
-{
-	
 }
 
 .menu__item-title
@@ -24,13 +26,26 @@ body
 	margin: 0;
 }
 
+.menu__item-title-active
+{
+	background-color: white;
+	color: #CD9F7E;
+}
+
 .submenu
 {
+	display: none;
+
 	margin-left: 0;
     padding-left: 0;
 
     border: solid #DDD8D5 1px;
     padding: 10px;
+}
+
+.submenu-active
+{
+	display: block;
 }
 
 .submenu__title

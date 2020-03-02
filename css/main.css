@@ -35,6 +35,7 @@ body
 .submenu
 {
 	display: none;
+	position: absolute;
 
 	margin-left: 0;
     padding-left: 0;

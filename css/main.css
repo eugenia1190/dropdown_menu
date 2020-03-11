@@ -3,6 +3,8 @@ body
 	font-family: Arial;
 	color: #DDD8D5;
 	background-color: #CD9F7E;
+
+	margin: 0;
 }
 
 .container
@@ -16,14 +18,16 @@ body
 	display: flex;
 	justify-content: space-between;
 	width: 60%;
+	padding-top: 25px;
 }
 
 .menu__item-title
 {
 	display: inline-block;
 	cursor: pointer;
-	padding: 10px;
+	padding: 5px;
 	margin: 0;
+
 }
 
 .menu__item-title-active
@@ -37,11 +41,10 @@ body
 	display: none;
 	position: absolute;
 
-	margin-left: 0;
-    padding-left: 0;
-
-    border: solid #DDD8D5 1px;
-    padding: 10px;
+    padding: 5px;
+    margin: 0;
+    	background-color: white;
+	color: #CD9F7E;
 }
 
 .submenu-active
